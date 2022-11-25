@@ -9,3 +9,9 @@ ssh-keygen -t rsa -b 4096 -C "rutikkvaskar9@gmail.com"
 tail <path  to id_rsa.pub> # add this to your github account
 git remote add orign <ssh url.git>
 git push origin master
+
+step to uadate folder
+git status #to known current status
+git add .
+git commit -m "message whatever you want"
+git push origin master
