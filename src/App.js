@@ -7,12 +7,15 @@ import {Footer} from './Componants/Footer';
 import React, { useState, useEffect} from 'react';
 
 
+
 function App() {
+  
   let initTodo;
   if(localStorage.getItem("todos")===null){
     initTodo = [];
 
   }
+  
   else{
     initTodo = JSON.parse(localStorage.getItem("todos"));
   }
@@ -59,10 +62,12 @@ function App() {
   
   return (
     <>
+        <div className="container" >
         <Header title="My todo list" searchBar={true}/>
         <AddTodo addTodo={addTodo}/>
         <Todos todos={todos} onDelete={onDelete}/>
         <Footer/>
+        </div>
     </>
   );
 }
