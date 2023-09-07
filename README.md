@@ -19,13 +19,13 @@
         <img src="/home.png" alt="codeImage">
     </div>
     <div class="container">
-        <h3>2) Converting to uppercase case  </h3>
+        <h3>2)Adding new todo </h3>
         <p>after adding new todo we can see in below container</p>
-        <img src="/upper.png" alt="aboutPage">
+        <img src="/addtodo.png" alt="aboutPage">
     </div>
     <div class="container">
-        <h3>3)Converting to lower case and low case</h3>
-        <img src="/dart and lower.png" alt="aboutPage">
+        <h3>3)deting todo</h3>
+        <img src="/delet.png" alt="aboutPage">
     </div>
 # Getting Started with Create React App
 
